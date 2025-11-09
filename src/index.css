@@ -1,0 +1,19 @@
+/* simple reset */
+* { box-sizing: border-box; }
+html, body, #root { height: 100%; margin: 0; padding: 0; }
+a { text-decoration: none; color: inherit; }
+button { font-family: inherit; }
+
+:root {
+  --bg-color: #f5f7fa;
+  --text-color: #222;
+  --card-bg: #fff;
+  --accent-color: #007bff;
+}
+
+.dark-mode {
+  --bg-color: #121212;
+  --text-color: #fff;
+  --card-bg: #1e1e1e;
+  --accent-color: #f39c12;
+}
